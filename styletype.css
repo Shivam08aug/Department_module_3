@@ -1,0 +1,128 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.header {
+  background-color: #463333;
+  color: #f5f3f3;
+  padding: 15px;
+}
+.header h1 {
+  text-align: center;
+  
+  color: white;
+}
+nav {
+  background-color: #835858;
+  overflow: hidden;
+}
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: rgb(226, 224, 233);
+}
+
+.h2{
+  font-size: 20px;
+}
+
+.pa p{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+  font-size: 30px;
+  color: rgb(187, 241, 230);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 30px;
+ 
+}
+
+/* .Engineering{
+
+  text-size-adjust: 10px;
+} */
+
+body{
+ font-family: arial;
+ background-color: #FFF0F0;
+}
+.main{
+  text-align: center;
+ margin: 2%;
+}
+
+.card{
+     width: 20.25%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+     transition: 0.5s ease;
+     cursor: pointer;
+     background-color: rgb(219 220 223);
+     
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+.title{
+  text-align: center;
+  padding: 10px;
+ }
+
+.des{
+  padding: 2px;
+  text-align: center;
+   padding-top: 5px;
+   border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+button{
+    transform: scale(1.1);
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+
+}
+
+
+.phone{
+  letter-spacing: 2px;
+  text-align: center;
+  list-style-type: none;
+  margin :5px 0;
+}
+
+.mail{
+  letter-spacing: 2px;
+  text-align: center;
+  list-style-type: none;
+  margin :5px 0;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+
